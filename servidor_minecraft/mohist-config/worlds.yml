@@ -1,0 +1,24 @@
+worlds:
+  world:
+    worldborder: 5.9999968E7
+    difficulty: EASY
+    seed: -9119482859374536023
+    environment: NORMAL
+    name: world
+    info: -/-
+    mohist: false
+    keepspawninmemory: true
+  DIM-1:
+    worldborder: 5.9999968E7
+  DIM1:
+    worldborder: 5.9999968E7
+  world/DIM-1:
+    difficulty: EASY
+  world/DIM1:
+    difficulty: EASY
+  otherside:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: deeperdarker
+  world/deeperdarker/otherside:
+    difficulty: EASY

@@ -1,0 +1,793 @@
+[20:50:22] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.4, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20:50:22] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[20:50:23] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20:50:23] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Musicology/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23104!/ Service=ModLauncher Env=SERVER
+[20:50:24] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 6 dependencies adding them to mods collection
+[20:50:26] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[20:50:26] [main/INFO] [mixin]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[20:50:26] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[20:50:26] [main/INFO] [Puzzles Lib]: Loading 35 mods:
+	- architectury 9.2.14
+	- artifacts 9.5.15
+		\-- expandability 9.0.4
+	- balm 7.3.35
+		\-- kuma_api 20.1.11
+	- born_in_chaos_v1 1.7.2
+	- cataclysm 3.16
+	- citadel 2.6.1
+	- cloth_config 11.1.136
+	- curios 5.14.1+1.20.1
+	- cyclopscore 1.19.10
+	- deeperdarker 1.3.3
+	- evilcraft 1.2.58
+		\-- evilcraftcompat 1.2.58
+	- forge 47.4.4
+		\-- mohist 1.20.1
+	- geckolib 4.8.2
+	- iceandfire 2.1.13-1.20.1
+	- jade 11.13.1+forge
+	- jei 15.20.0.116
+	- jeresources 1.4.0.247
+	- journeymap 5.10.3
+	- legendary_monsters 1.20.1
+	- lionfishapi 2.4-Fix
+	- minecraft 1.20.1
+	- mowziesmobs 1.7.3
+	- mutantmonsters 8.0.7
+	- onlyhammers 1.20.1-0.6
+	- puzzleslib 8.1.29
+		|-- mixinextras 0.4.1
+		\-- puzzlesaccessapi 20.1.1
+	- rpgsmw 9.21.20.1
+	- sophisticatedbackpacks 3.24.8.1386
+	- sophisticatedcore 1.2.96.1185
+	- tlskincape 1.36
+	- tombstone 9.0.8
+	- waystones 14.1.17
+[20:50:26] [main/WARN] [mixin]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:50:27] [main/WARN] [mixin]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[20:50:27] [main/WARN] [mixin]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[20:50:27] [main/WARN] [mixin]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[20:50:27] [main/WARN] [mixin]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[20:50:27] [main/WARN] [mixin]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[20:50:27] [main/WARN] [mixin]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[20:50:27] [main/WARN] [mixin]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[20:50:27] [main/WARN] [mixin]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[20:50:27] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:50:34] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for mutantmonsters:main
+[20:50:35] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[20:50:35] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[20:50:35] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[20:50:35] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[20:50:35] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[20:50:35] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[20:50:35] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[20:50:35] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[20:50:35] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[20:50:35] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[20:50:35] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[20:50:35] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.4.4, for MC 1.20.1 with MCP 20230612.114412
+[20:50:35] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.4.4 Initialized
+[20:50:35] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.106 Initialized
+[20:50:35] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility]: ExpandAbility here, who dis?
+[20:50:37] [main/INFO] [evilcraft]: 2205 possible Broom base combinations are ready for flying!
+[20:50:38] [main/INFO] [Puzzles Lib]: Loading common config for mutantmonsters
+[20:50:38] [modloading-worker-0/INFO] [evilcraft]: Registered packet handler.
+[20:50:38] [main/INFO] [journeymap]: Initializing Packet Registries
+[20:50:38] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[20:50:38] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[20:50:38] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[20:50:38] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[20:50:38] [modloading-worker-0/INFO] [Jade]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[20:50:38] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[20:50:41] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:50:44] [Worker-Main-3/WARN] [artifacts.Artifacts]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-9.0.8.jar
+[20:50:45] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 13 recipes
+[20:50:45] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2276 advancements
+[20:50:45] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 13 curio slots
+[20:50:45] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 11 curio entities
+[20:50:46] [main/INFO] [evilcraft]: 19 Broom modifiers can be applied!
+[20:50:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[20:50:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[20:50:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[20:50:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[20:50:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[20:50:46] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[20:50:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:50:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[20:50:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:50:46] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:50:46] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-6e92c504 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.4.4, NeoForge version 47.1.106)
+[20:50:47] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[20:50:47] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[20:50:47] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[20:50:47] [Server thread/INFO] [Puzzles Lib]: Loading server config for mutantmonsters
+[20:50:47] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[20:50:47] [Thread-2/INFO] [Puzzles Lib]: Reloading server config for mutantmonsters
+[20:50:47] [Thread-2/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[20:50:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[20:50:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[20:50:56] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 50%
+[20:50:56] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 5318 ms
+[20:50:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[20:50:59] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 27%
+[20:50:59] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2908 ms
+[20:50:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[20:51:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[20:51:01] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1925 ms
+[20:51:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension deeperdarker:otherside
+[20:51:03] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 59%
+[20:51:03] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2215 ms
+[20:51:04] [Server thread/INFO] [com.mohistmc.MohistMC]: Enabling Mohist v1.20.1
+[20:51:04] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[20:51:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (16.659s)! For help, type "help"
+[20:51:04] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[20:51:04] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[20:51:04] [Server thread/INFO] [cyclopscore]: Loading infobook /data/cyclopscore/info/test.xml
+[20:51:04] [Server thread/INFO] [evilcraft]: Loading infobook /data/evilcraft/info/book.xml
+[20:51:04] [Server thread/WARN] [evilcraft]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[20:51:04] [Server thread/WARN] [evilcraft]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[20:51:04] [Server thread/WARN] [evilcraft]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[20:51:04] [Server thread/WARN] [evilcraft]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[20:51:04] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[20:51:04] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[20:51:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana joined the game
+[20:51:15] [Server thread/INFO] [Jade]: Syncing config to aldana (72200f7c-12a9-3765-89ec-566289111c5b)
+[20:51:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana has made the advancement [Halloween]
+[20:51:15] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: aldana[/127.122.128.97:47591] logged in with entity id 715 at ([world]332.26568764335764, 160.0, 1658.90200594537)
+[20:51:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: esteebanosoriio joined the game
+[20:51:46] [Server thread/INFO] [Jade]: Syncing config to esteebanosoriio (1eb69301-5444-3f0e-9c37-e36ba4e6d906)
+[20:51:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: esteebanosoriio has made the advancement [Halloween]
+[20:51:46] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: esteebanosoriio[/127.122.128.97:60963] logged in with entity id 1816 at ([world]2733.6081466433816, 89.0, 3435.9755931451855)
+[20:52:04] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: aldana issued server command: /tp esteebanosoriio
+[20:52:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [aldana: Teleported aldana to esteebanosoriio]
+[20:52:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was frozen by Ice Dragon
+[20:52:31] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[20:52:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana has made the advancement [The Most Useful Key]
+[20:52:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana has reached the goal [A Fast Comeback]
+[20:52:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax joined the game
+[20:52:47] [Server thread/INFO] [Jade]: Syncing config to eltrompax (d8a50172-8461-30f8-912e-1718e0266f91)
+[20:52:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [Halloween]
+[20:52:47] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: eltrompax[/127.122.128.97:35549] logged in with entity id 3429 at ([world]146.32969343910483, 149.0, 1762.4309201445874)
+[20:54:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: aldana issued server command: /tp esteebanosoriio
+[20:54:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [aldana: Teleported aldana to esteebanosoriio]
+[20:55:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: aldana issued server command: /gamemode creative
+[20:55:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [aldana: Set own game mode to Creative Mode]
+[20:56:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: aldana issued server command: /gamemode survival
+[20:56:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [aldana: Set own game mode to Survival Mode]
+[20:57:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: esteebanosoriio has made the advancement [Ice Bucket Challenge]
+[20:58:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [Junior Summoner]
+[21:06:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [Second Age]
+[21:08:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was struck with lightning by Lightning Dragon
+[21:08:26] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:08:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Lightning Dragon
+[21:08:53] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:09:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Lightning Dragon
+[21:09:19] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:09:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was struck with lightning by Lightning Dragon
+[21:09:37] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:10:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Lightning Dragon
+[21:10:13] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:10:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax issued server command: /tp
+[21:10:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax issued server command: /tp aldana
+[21:10:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [eltrompax: Teleported eltrompax to aldana]
+[21:11:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by eltrompax
+[21:11:14] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:11:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was doomed to fall
+[21:11:34] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:11:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Nightmare Stalker
+[21:11:51] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:12:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Nightmare Stalker
+[21:12:29] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:13:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [Funeral Theft]
+[21:13:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:13:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:13:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:13:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:13:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:13:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:13:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Nightmare Stalker
+[21:13:44] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:14:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was slain by Mr. Pumpkin
+[21:14:03] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:14:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Nightmare Stalker
+[21:14:30] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:15:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Nightmare Stalker
+[21:15:53] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:16:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: esteebanosoriio has reached the goal [Pumpkin Sir]
+[21:17:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:17:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:18:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: esteebanosoriio hit the ground too hard
+[21:18:46] [Server thread/INFO] [tombstone]: The player esteebanosoriio has successfully been saved
+[21:19:58] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:19:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:20:57] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax moved wrongly!
+[21:21:52] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax issued server command: /tp esteebanosoriio
+[21:21:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [eltrompax: Teleported eltrompax to esteebanosoriio]
+[21:22:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:22:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:22:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Pumpkin Spirit
+[21:22:32] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:27:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Myrmex Soldier
+[21:27:29] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:27:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana has made the advancement [The Only Good Bug...]
+[21:32:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was slain by Mr. Pumpkin
+[21:32:44] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:35:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:35:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:35:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:35:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:35:26] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:35:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:35:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:35:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:36:01] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:36:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:36:24] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:36:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:37:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [My Name is Nobody]
+[21:38:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:38:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:38:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:38:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:39:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [Sea? Not a Problem]
+[21:40:26] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio issued server command: /tp eltrompax
+[21:40:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [esteebanosoriio: Teleported esteebanosoriio to eltrompax]
+[21:41:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was slain by Cyclops
+[21:41:13] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:41:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax issued server command: /tp esteebanosoriio
+[21:41:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [eltrompax: Teleported eltrompax to esteebanosoriio]
+[21:41:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [Dragonslayer]
+[21:43:09] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax issued server command: /tp esteebanosoriio
+[21:43:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [eltrompax: Teleported eltrompax to esteebanosoriio]
+[21:43:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [Dripstone Everywhere]
+[21:44:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was slain by Ambusher
+[21:44:15] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:44:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has made the advancement [A Disgusting Worm]
+[21:45:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was slain by Spiky Worm
+[21:45:13] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:46:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was slain by Ancient Guardian
+[21:46:33] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:47:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was slain by Ancient Guardian
+[21:47:15] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:47:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was pricked to death
+[21:47:35] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:47:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax was slain by Ancient Guardian
+[21:47:54] [Server thread/INFO] [tombstone]: The player eltrompax has successfully been saved
+[21:48:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax has completed the challenge [The One - Armed Monster]
+[21:48:27] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: esteebanosoriio moved wrongly!
+[21:48:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was blown up by Creeper
+[21:48:31] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:49:18] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: aldana was kicked for floating too long!
+[21:49:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: aldana lost connection: Flying is not enabled on this server
+[21:49:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana left the game.
+[21:49:18] [Server thread/WARN] [net.minecraft.network.Connection]: handleDisconnection() called twice
+[21:49:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax lost connection: Timed out
+[21:49:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax left the game
+[21:52:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: esteebanosoriio was slain by Ambusher
+[21:52:28] [Server thread/INFO] [tombstone]: The player esteebanosoriio has successfully been saved
+[21:53:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax joined the game
+[21:53:40] [Server thread/INFO] [Jade]: Syncing config to eltrompax (d8a50172-8461-30f8-912e-1718e0266f91)
+[21:53:40] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: eltrompax[/127.122.128.97:52593] logged in with entity id 59821 at ([world]655.1888273952347, 81.0, 2718.735179621639)
+[21:55:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana joined the game
+[21:55:21] [Server thread/INFO] [Jade]: Syncing config to aldana (72200f7c-12a9-3765-89ec-566289111c5b)
+[21:55:21] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: aldana[/127.122.128.97:52831] logged in with entity id 60770 at ([world]31.14099969590792, -15.053975913312197, 1511.2906623754202)
+[21:55:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana was slain by Baby Spider
+[21:55:27] [Server thread/INFO] [tombstone]: The player aldana has successfully been saved
+[21:56:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana has reached the goal [Arachnophobe's Nightmare]
+[21:56:34] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax was kicked for floating a vehicle too long!
+[21:56:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: eltrompax lost connection: Flying is not enabled on this server
+[21:56:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax left the game.
+[21:56:34] [Server thread/WARN] [net.minecraft.network.Connection]: handleDisconnection() called twice
+[21:56:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: eltrompax joined the game
+[21:56:39] [Server thread/INFO] [Jade]: Syncing config to eltrompax (d8a50172-8461-30f8-912e-1718e0266f91)
+[21:56:39] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: eltrompax[/127.122.128.97:59589] logged in with entity id 63333 at ([world]218.00173219947803, 80.12397412517207, 3152.378550012047)
+[21:56:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: aldana has made the advancement [They Have a Cave Troll!]
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: The server has stopped responding!
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: Mohist version: 1.20.1-6e92c504 (MC: 1.20.1)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: Memory using: 3873MB/9032MB/14336MB
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: Server thread dump (Look for plugins here before reporting to Mohist!):
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Server thread
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 45 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_5667_(BlockableEventLoop.java:146)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:135)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:149)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.Level.m_6522_(Level.java:309)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.Level.m_6325_(Level.java:304)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_20343_(Entity.java:3833)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_6034_(Entity.java:544)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_20248_(Entity.java:1607)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_19890_(Entity.java:1594)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.internalTeleport(ServerGamePacketListenerImpl.java:1497)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9780_(ServerGamePacketListenerImpl.java:1449)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_6021_(ServerPlayer.java:1578)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.util.JourneyMapTeleport.teleportEntity(JourneyMapTeleport.java:132)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.util.JourneyMapTeleport.attemptTeleport(JourneyMapTeleport.java:92)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.handler.PacketHandler.handleTeleportPacket(PacketHandler.java:25)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.packets.TeleportPacket.handle(TeleportPacket.java:96)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.packets.PacketManager$$Lambda$11271/0x00007a4845916d78.accept(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.forge.ForgeNetworkHandler.lambda$buildHandler$4(ForgeNetworkHandler.java:71)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.forge.ForgeNetworkHandler$$Lambda$15901/0x00007a48461c1ef0.run(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:210)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.forge.ForgeNetworkHandler.lambda$buildHandler$5(ForgeNetworkHandler.java:68)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.forge.ForgeNetworkHandler$$Lambda$11291/0x00007a4845918d68.accept(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:114)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.IndexedMessageCodec$$Lambda$15280/0x00007a484612c000.accept(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.Optional.ifPresent(Optional.java:178)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:114)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:152)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:71)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.SimpleChannel$$Lambda$4285/0x00007a4844b48948.accept(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:263)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:255)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus$$Lambda$4287/0x00007a4844b55588.invoke(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus$$Lambda$4486/0x00007a4844b81d38.invoke(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:319)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:299)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkInstance.dispatch(NetworkInstance.java:67)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:88)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkHooks$$Lambda$15270/0x00007a4846126010.apply(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.Optional.map(Optional.java:260)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkHooks.onCustomPayload(NetworkHooks.java:88)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7423_(ServerGamePacketListenerImpl.java:2959)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket.m_5797_(ServerboundCustomPayloadPacket.java:37)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket.m_5797_(ServerboundCustomPayloadPacket.java:10)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:25)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils$$Lambda$15684/0x00007a4846188690.run(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:151)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:967)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:175)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:124)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:950)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:944)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:112)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:929)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:855)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:285)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer$$Lambda$13416/0x00007a4845b58d40.run(Unknown Source)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:07] [Spigot Watchdog Thread/ERROR] [Minecraft]: Entire Thread Dump:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Reference Handler
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 2 | Suspended: false | Native: false | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Finalizer
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Object.wait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Signal Dispatcher
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Notification Thread
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 11 | Suspended: false | Native: false | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Common-Cleaner
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 12 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Object.wait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: JNA Cleaner
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 17 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Object.wait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		app//com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: ProgressBar
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 19 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: JNA Cleaner
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 29 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Object.wait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/com.sun.jna@5.13.0/com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Timer hack thread
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 30 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.sleep(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.Util$7.run(Util.java:672)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Thread-2
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 35 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: FileSystemWatchService
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 36 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Yggdrasil Key Fetcher
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 40 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Worker-Main-1
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 42 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Worker-Main-2
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 43 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Worker-Main-3
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 44 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:715)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1047)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.ThreadingDetector.m_199416_(ThreadingDetector.java:48)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer.m_63084_(PalettedContainer.java:38)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer.m_63091_(PalettedContainer.java:102)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.LevelChunkSection.m_62991_(LevelChunkSection.java:68)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.LevelChunkSection.m_62986_(LevelChunkSection.java:62)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.ProtoChunk.m_6978_(ProtoChunk.java:140)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/iceandfire@2.1.13-1.20.1/com.github.alexthe666.iceandfire.world.gen.processor.GorgonTempleProcessor.process(GorgonTempleProcessor.java:36)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.processBlockInfos(StructureTemplate.java:392)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.m_230328_(StructureTemplate.java:235)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_213695_(SinglePoolElement.java:124)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_226509_(PoolElementStructurePiece.java:89)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.m_213694_(PoolElementStructurePiece.java:85)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.levelgen.structure.StructureStart.m_226850_(StructureStart.java:90)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.ChunkGenerator.m_223080_(ChunkGenerator.java:337)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.ChunkGenerator$$Lambda$16717/0x00007a48462edd28.accept(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/com.google.common@31.1-jre/com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.ChunkGenerator.m_213609_(ChunkGenerator.java:336)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.ChunkStatus.m_279978_(ChunkStatus.java:93)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.ChunkStatus$$Lambda$2756/0x00007a48449b6000.m_156322_(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.ChunkStatus$SimpleGenerationTask.m_214024_(ChunkStatus.java:282)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.ChunkStatus.m_280308_(ChunkStatus.java:218)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$27(ChunkMap.java:651)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ChunkMap$$Lambda$14638/0x00007a48460368f0.apply(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/datafixerupper@6.0.8/com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ChunkMap.lambda$scheduleChunkGeneration$29(ChunkMap.java:642)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ChunkMap$$Lambda$14494/0x00007a484600c000.apply(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ChunkTaskPriorityQueueSorter$$Lambda$14557/0x00007a48460170b0.run(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Server thread
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 45 | Suspended: false | Native: false | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.yield(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_5667_(BlockableEventLoop.java:145)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:135)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:149)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.Level.m_6522_(Level.java:309)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.Level.m_6325_(Level.java:304)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_20343_(Entity.java:3833)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_6034_(Entity.java:544)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_20248_(Entity.java:1607)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Entity.m_19890_(Entity.java:1594)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.internalTeleport(ServerGamePacketListenerImpl.java:1497)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9780_(ServerGamePacketListenerImpl.java:1449)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_6021_(ServerPlayer.java:1578)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.util.JourneyMapTeleport.teleportEntity(JourneyMapTeleport.java:132)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.util.JourneyMapTeleport.attemptTeleport(JourneyMapTeleport.java:92)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.handler.PacketHandler.handleTeleportPacket(PacketHandler.java:25)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.packets.TeleportPacket.handle(TeleportPacket.java:96)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.packets.PacketManager$$Lambda$11271/0x00007a4845916d78.accept(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.forge.ForgeNetworkHandler.lambda$buildHandler$4(ForgeNetworkHandler.java:71)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.forge.ForgeNetworkHandler$$Lambda$15901/0x00007a48461c1ef0.run(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:210)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.forge.ForgeNetworkHandler.lambda$buildHandler$5(ForgeNetworkHandler.java:68)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/journeymap@5.10.3/journeymap.common.network.forge.ForgeNetworkHandler$$Lambda$11291/0x00007a4845918d68.accept(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:114)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.IndexedMessageCodec$$Lambda$15280/0x00007a484612c000.accept(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.Optional.ifPresent(Optional.java:178)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:114)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:152)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:71)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.simple.SimpleChannel$$Lambda$4285/0x00007a4844b48948.accept(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:263)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:255)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus$$Lambda$4287/0x00007a4844b55588.invoke(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus$$Lambda$4486/0x00007a4844b81d38.invoke(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:319)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:299)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkInstance.dispatch(NetworkInstance.java:67)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:88)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkHooks$$Lambda$15270/0x00007a4846126010.apply(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.Optional.map(Optional.java:260)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.network.NetworkHooks.onCustomPayload(NetworkHooks.java:88)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_7423_(ServerGamePacketListenerImpl.java:2959)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket.m_5797_(ServerboundCustomPayloadPacket.java:37)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket.m_5797_(ServerboundCustomPayloadPacket.java:10)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:25)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils$$Lambda$15684/0x00007a4846188690.run(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:151)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:967)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:175)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:124)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:950)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:944)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:112)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:929)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:855)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:285)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer$$Lambda$13416/0x00007a4845b58d40.run(Unknown Source)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: DestroyJavaVM
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 48 | Suspended: false | Native: false | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Server console handler
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 47 | Suspended: false | Native: false | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.io.FileInputStream.read0(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.io.FileInputStream.read(FileInputStream.java:228)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.terminal@3.21.0/org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/org.jline.reader@3.21.0/org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:101)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Netty Epoll Server IO #0
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 49 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Spigot Watchdog Thread
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 50 | Suspended: false | Native: false | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.management@17.0.16/sun.management.ThreadImpl.dumpThreads0(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.management@17.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:528)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.management@17.0.16/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:516)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/forge@47.4.4/org.spigotmc.WatchdogThread.run(WatchdogThread.java:71)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: mysql-cj-abandoned-connection-cleanup
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 51 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Object.wait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/mysql.connector.j@8.0.33/com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: FileSystemWatchService
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 52 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/sun.nio.fs.LinuxWatchService.poll(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: LanServerPinger #1
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 60 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.sleep(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		TRANSFORMER/minecraft@1.20.1/net.minecraft.client.server.LanServerPinger.run(LanServerPinger.java:48)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Metrics-1
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 61 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Netty Epoll Server IO #1
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 67 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Netty Epoll Server IO #2
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 68 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Netty Epoll Server IO #3
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 70 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Netty Epoll Server IO #4
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 71 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Netty Epoll Server IO #5
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 72 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Ice and Fire Pathfinding Worker #0
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 73 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Tombstone Backup Thread
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 74 | Suspended: false | Native: false | State: WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Netty Epoll Server IO #6
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 75 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: Netty Epoll Server IO #7
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 76 | Suspended: false | Native: true | State: RUNNABLE
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: Current Thread: User Authenticator #6
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	PID: 129 | Suspended: false | Native: false | State: TIMED_WAITING
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 	Stack:
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/jdk.internal.misc.Unsafe.park(Native Method)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: 		java.base@17.0.16/java.lang.Thread.run(Thread.java:840)
+[21:59:08] [Spigot Watchdog Thread/ERROR] [Minecraft]: ------------------------------
